@@ -1,59 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Chunni Gota By Kaur</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
 
 <!-- TOP BAR -->
-<div>
-  <p>24x7 Wedding Shop | Video Call Available | USA Shipping</p>
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>24x7 Wedding Shop • Video Call Available • USA Shipping</div>
+    <div>
+      <a href="contact.html">Contact</a> •
+      <a href="policies.html">Policies</a>
+    </div>
+  </div>
 </div>
 
 <!-- HEADER -->
-<header>
-  <h1>Chunni Gota By Kaur</h1>
+<header class="header">
+  <div class="container header-inner">
 
-  <nav>
-    <a href="women.html">Women</a>
-    <a href="men.html">Men</a>
-    <a href="kids.html">Kids</a>
-    <a href="bridal.html">Bridal</a>
-    <a href="accessories.html">Accessories</a>
-    <a href="ready-to-ship.html">Ready to Ship</a>
+    <div class="brand">
+      <div class="brand-name">Chunni Gota By Kaur</div>
+      <div class="brand-sub">Punjabi Designer Boutique • USA</div>
+    </div>
+
+    <div class="search-wrap">
+      <input id="siteSearch" type="search" placeholder="Search suits, sarees, lehengas, jaggo…" />
+      <div id="searchResults" class="search-results"></div>
+    </div>
+
+    <div class="actions">
+      <a href="#">Login</a>
+      <a href="#">Wishlist</a>
+      <a href="#">Cart (0)</a>
+    </div>
+  </div>
+
+  <nav class="nav">
+    <a href="women.html">WOMEN</a>
+    <a href="men.html">MEN</a>
+    <a href="kids.html">KIDS</a>
+    <a href="bridal.html">BRIDAL</a>
+    <a href="accessories.html">JAGGO & ACCESSORIES</a>
+    <a href="ready.html">READY TO SHIP</a>
+    <a href="sale.html">SALE</a>
   </nav>
 </header>
 
-<!-- HERO SECTION -->
-<section>
-  <h2>Wedding Saree Collection</h2>
-  <button>SHOP NOW</button>
+<!-- HERO -->
+<section class="hero container">
+  <div class="card">Wedding Saree Collection<br><button>SHOP NOW</button></div>
+  <div class="card">Wedding Lehenga Edit<br><button>SHOP NOW</button></div>
+  <div class="card">Men’s Wedding Styles<br><button>SHOP NOW</button></div>
+  <div class="card">Jaggo Essentials<br><button>SHOP NOW</button></div>
 </section>
 
-<section>
-  <h2>Wedding Lehenga Edit</h2>
-  <button>SHOP NOW</button>
-</section>
-
-<section>
-  <h2>Men’s Wedding Style Selection</h2>
-  <button>SHOP NOW</button>
+<!-- SERVICES -->
+<section class="services container">
+  <div>24-Hour Dispatch</div>
+  <div>Custom Fitting</div>
+  <div>Worldwide Shipping</div>
+  <div>Secure Payments</div>
+  <div>New Styles Daily</div>
 </section>
 
 <!-- VIDEO CALL -->
-<section>
+<section class="container video">
   <h2>Shop Via Video Call</h2>
-  <p>Get a free virtual styling session</p>
+  <p>Get a free virtual styling session with our bridal & wedding experts.</p>
   <button>BOOK APPOINTMENT</button>
 </section>
 
+<!-- COLLECTIONS -->
+<section class="container">
+  <h2>Latest Ethnic Collection</h2>
+  <div class="grid">
+    <div>Latest Salwar Suits</div>
+    <div>Latest Sarees</div>
+    <div>Latest Lehengas</div>
+    <div>Latest Men's Wear</div>
+  </div>
+</section>
+
+<section class="container">
+  <h2>Best Sellers</h2>
+  <div class="grid">
+    <div>Best Selling Suits</div>
+    <div>Best Selling Sarees</div>
+    <div>Best Selling Lehengas</div>
+    <div>Best Selling Jaggo Items</div>
+  </div>
+</section>
+
 <!-- FOOTER -->
-<footer>
-  <p>© Punjabi Boutique USA</p>
+<footer class="footer">
+  <div class="container footer-grid">
+
+    <div>
+      <h3>ABOUT US</h3>
+      <a href="#">About Us</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Lookbook</a>
+      <a href="#">Our Stores</a>
+      <a href="#">Video Call Appointment</a>
+      <a href="#">Buying Guide</a>
+    </div>
+
+    <div>
+      <h3>POLICIES</h3>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Shipping Policy</a>
+      <a href="#">Return Policy</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Payment Policy</a>
+      <a href="#">FAQs</a>
+      <a href="#">Customization Charges</a>
+    </div>
+
+    <div>
+      <h3>MEASUREMENT</h3>
+      <a href="#">Saree & Blouse</a>
+      <a href="#">Salwar & Kameez</a>
+      <a href="#">Lehenga & Choli</a>
+      <a href="#">Gowns</a>
+      <a href="#">Size Chart</a>
+    </div>
+
+    <div>
+      <h3>GET IN TOUCH</h3>
+      <p>24x7 Customer Support</p>
+      <p>We Ship Worldwide</p>
+      <p>USA • UK • Canada • Australia • India</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    SAFE & SECURE PAYMENT • Cards • Apple Pay • Google Pay • ACH<br>
+    © 2025 Chunni Gota By Kaur
+  </div>
 </footer>
 
+<script src="assets/app.js"></script>
 </body>
 </html>
-
